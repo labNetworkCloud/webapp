@@ -6,8 +6,8 @@ on:
     branches:
       - master
 jobs:
-        pr-check:
-                runs-on: ubuntu-latest
+        build:
+        runs-on: ubuntu-latest
                 steps:
                         - name: checkout repository
                           uses: actions/checkout@v2
